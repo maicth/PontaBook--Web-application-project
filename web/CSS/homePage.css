@@ -1,0 +1,329 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 24, 2022, 3:01:53 PM
+    Author     : DELL
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E8E8E8
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: azure;
+}
+
+.page-name{
+    flex: 20%;
+    margin-right: 20px;
+}
+
+a.page-name {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: #05A3CF;
+}
+
+.search-container {
+    flex: 40%;
+}
+
+form.search-bar input[type=text]{
+    width: 80%;
+    font-size: 20px;
+        
+}
+form.search-bar button{
+    width: 20%;
+    float:right;
+    padding: 3px auto;
+        
+}
+
+.info{
+    flex: 30%;
+    font-size: 20px;
+    padding: 15px 0px;
+    text-align: right;
+    text-align-last: auto;
+    position: static;
+}
+
+.info ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.info ul li {
+    display: inline-block;
+    margin-left: 25px;
+    white-space: nowrap;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue
+}
+
+.category-container {
+    min-width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.category{
+    overflow:scroll;
+    overflow-y: hidden;
+    background-color: #FEB07D;
+    display: flex;
+}
+
+.category .product-cat {
+    display: flex;
+    /*grid-template-columns: repeat(10, [col-start] auto [col-end]);*/
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+}
+
+.category .product-cat a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.category .product-cat a:hover{
+    background-color: bisque;
+}
+
+.product-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    margin: 0 auto;
+
+}
+
+.products .product-item {
+    background-color: #fff;
+    margin: 4px;
+    text-align: left;
+}
+
+.products .product-item:hover {
+    border: activecaption;
+    box-shadow: 0 0 10px rgba(33,33,33,.2);
+}
+
+.product-thumb{
+    position: relative;
+    display: table;
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.product-info {
+    padding: 10px 5px;
+}
+.product-info a{
+    text-decoration: #05A3CF;
+    display: inline-block
+}
+
+.product-info a.product-name{
+    font-size: 15px;
+    font-family: nunito-sans, sans-serif, Helvetica, Arial;
+    font-weight: 200;
+    height:40px;
+    overflow: hidden;
+    line-height: 1.4em;
+    word-break: break-word;
+    min-height: 2.6em;
+    max-height: 2.6em;
+    color: #333333;
+    padding: 0px 0px;
+    text-transform: capitalize;
+}
+
+.product-price{
+    font-size: 16px;
+    color: red;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 5px 0px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.login-box {
+    width: 30%;
+    height: 300px;
+    margin: 100px auto;
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 16px 16px
+
+}
+
+.login-box input {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 10px 10px;
+
+}
+
+hr {
+    margin: 10px 0px;
+}
+.login-box a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+.login-box .forgot-pwd{
+    color: darkgrey
+}
+
+.login-box .forgot-pwd:hover{
+    color: darkorange
+}
+
+.login-box .sign-in{
+    display: table;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.login-box .sign-in:hover{
+    background-color: darkseagreen
+}
+
+.signup-box {
+    width: 30%;
+    height: 350px;
+    margin: 100px auto;
+    background-color: #FFF;
+    border-radius: 4px;
+    padding: 16px 16px
+
+}
+
+.signup-box input {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 10px 10px;
+    /*text-transform: capitalize*/
+
+}
+
+.signup-box a {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+
+}             
+
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding:10px;
+}
+
+.circle{
+    background: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /*text-align: center;*/
+    padding: 8px 3px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

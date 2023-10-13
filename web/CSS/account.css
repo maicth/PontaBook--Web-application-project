@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 17, 2022, 12:04:16 AM
+    Author     : DELL
+*/
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    width:80%;
+    margin: 10px auto;
+}
+
+.left {
+    width: 30%;
+    padding: 0;
+    background-color: navajowhite;
+}
+
+.right {
+    width: 70%;
+    padding: 15px 15px;
+    background-color: paleturquoise;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+table tr, td {
+    padding: 10px;
+}

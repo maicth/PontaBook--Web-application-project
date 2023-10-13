@@ -1,0 +1,78 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 17, 2022, 4:03:38 PM
+    Author     : DELL
+*/
+
+.insert-container {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+.left {
+    width: 20%;
+    margin-right: 10px;
+    background-color: #FFF;
+}
+
+.right {
+    width: 80%;
+    background-color: #FFF;
+}
+
+
+input[type=submit]{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.CheckBox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.pub-container{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 10px;
+}

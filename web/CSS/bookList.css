@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 28, 2022, 4:51:05 PM
+    Author     : DELL
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+    display: flex;
+    width:80%;
+    margin: 10px auto;
+    /*background-color: #FFF*/
+
+}
+
+.admin-menu {
+    width: 15%;
+    padding: 0;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+/* Left column (menu) */
+.left {
+    width: 45%;
+    padding: 15px 15px;   
+    background-color: navajowhite;
+}
+
+.right {
+    width: 40%;
+    padding: 15px 15px;
+    background-color: paleturquoise;
+}
+
+.right .for-mat{
+    width:100%
+}
+.left table, td{
+    border: 1px solid black;
+}
+
+.left a {
+    text-decoration: none;
+    color: #333333
+}
+.left a:hover {
+    color: #FFF
+}
+
+.left .add-prod {
+    float: right;
+    display: inline-block;
+    background-color: #FFF;
+    padding: 5px 5px;
+    margin-right:10px;
+    border-radius: 3px;
+    color: #333333
+}
+
+
+.CheckBox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    margin: 0 auto;
+}
+
+.left tr, td{
+    padding: 5px;
+}
+
+
+.right input{
+    background-color: transparent;
+    border: none;
+}
+
+.right input[type=submit]{
+    border: 1px solid black;
+    background-color: #E8E8E8;
+    margin: 10px auto;
+    padding:  5px 10px;
+    border-radius: 4px;
+
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
